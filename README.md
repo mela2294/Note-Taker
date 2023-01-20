@@ -4,8 +4,8 @@
 This application that I create called Note Taker can be used to write and save notes. This application wil use an Express.js back end and will save and retrieve note data from a JSON file and you can also delete it by clicking the red trash can icon. 
 
 ## User Story
-### AS A small business owner
-### I WANT to be able to write and save notes
+AS A small business owner
+I WANT to be able to write and save notes
 SO THAT I can organize my thoughts and keep track of tasks I need to complete
 
 ## Acceptance Criteria
@@ -25,6 +25,8 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 Mock-Up
 
 ## Screenshots
+![notes](https://user-images.githubusercontent.com/115947835/213617216-693c5a37-8cc3-4e35-b6b2-d19528949a83.PNG)
+![note](https://user-images.githubusercontent.com/115947835/213617220-f6421e95-b332-4cea-92f6-5b0e20b76bd7.PNG)
 
 
 ## Contact
