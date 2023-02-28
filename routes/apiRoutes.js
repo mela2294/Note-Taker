@@ -1,7 +1,7 @@
-const router = require('express').Router();
-const store = require('../db/store');
+const router = require("express").Router();
+const store = require("../db/store");
 
-router.get('/notes', async (req, res) => {
+router.get("/notes", async (req, res) => {
     try {
         const notes = await store.getNotes();
 
@@ -11,7 +11,7 @@ router.get('/notes', async (req, res) => {
     }
 });
 
-router.post('/notes', async (req, res) => {
+router.post("/notes", async (req, res) => {
     try {
         const newNotes = await store.setNotes(req.body);
 
@@ -21,7 +21,7 @@ router.post('/notes', async (req, res) => {
     }
 });
 
-router.delete('/notes/;id', async (req, res) => {
+router.delete("/notes/:id", async (req, res) => {
     try {
         store.deleteNote(req.params.id);
 
@@ -32,4 +32,4 @@ router.delete('/notes/;id', async (req, res) => {
     res.json({ ok: true });
 });
 
-module.export = router;
+module.exports = router;

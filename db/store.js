@@ -1,17 +1,17 @@
-const fs = require('fs');
-const util = require('util');
-const uuid = require('uuid');
+const fs = require("fs");
+const util = require("util");
+const uuid = require("uuid");
 
 const readFileAsync = util.promisify(fs.readFile);
 const writeFileAsync = util.promisify(fs.writeFile);
 
 class Store {
     read() {
-        return readFileAsync('db/db.json', 'utf-8');
+        return readFileAsync("db/db.json", "utf-8");
     }
 
     write(note) {
-        return writeFileAsync('db/db.json', JSON.stringify(note));
+        return writeFileAsync("db/db.json", JSON.stringify(note));
     }
 
     async getNotes() {
@@ -21,11 +21,11 @@ class Store {
         try {
             return (parsedNotes = [].concat(JSON.parse(notes)));
         } catch (err) {
-            return parsedNotes = [];
+            return (parsedNotes = []);
         }
     }
 
-    async setNotes(notes) {
+    async setNotes(note) {
         const { title, text } = note;
 
         if (!title || !text) {
