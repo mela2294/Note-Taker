@@ -25,9 +25,10 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 Mock-Up
 
 ## Screenshots
-![note](https://user-images.githubusercontent.com/115947835/213617814-f40a0010-3ce4-4a3c-8b17-5a62dcf2f754.PNG)
-![note taker](https://user-images.githubusercontent.com/115947835/213617820-a95cb3d7-f794-41d3-a511-4ac5f7b56af1.PNG)
 
+
+![MODULE11](https://user-images.githubusercontent.com/115947835/222325667-3cf31b4c-497e-4599-ac0e-2ad466fa808d.PNG)
+![MODULE111](https://user-images.githubusercontent.com/115947835/222325677-1dfa2800-2bb0-4b12-b2b4-1c4d72dda6a9.png)
 
 
 ## Contact
